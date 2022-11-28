@@ -7,12 +7,76 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Hello World</title>
 </head>
-<body class="page">
-  <header class="header">
-    <h1></h1>
+<body class="page" >
+  <header class="nav" >
+    <ul class='nav__list'>
+      <li class='nav__list_icon  '><img src="images/header/apple_icon.png" alt="apple_icon"></li>
+      <li class='nav__list_menu razmer1'><a href="#"> HOME</a></li>
+      <li class='nav__list_menu razmer3'><a href="#products">PRODUCTS </a></li>
+      <li class='nav__list_menu razmer2'><a href="#support">SUPPORT </a></li>
+      <li class='nav__list_menu'><a href="#">CONTACTS </a></li>
+      <li class='nav__list_tel'><img src="images/header/iphone_icon.png" alt="iphone_icon"></li>
+      <li class='nav__list_menu'>+78005553535</li>
+    </ul> 
+    <div class="logo">
+
+    </div>
   </header>
-  <main class="main"></main>
-  <footer class="footer"></footer>
-  <script src="./script/index.js"></script>
+
+  
+  <div class = "products" id = "products">
+    <h2>PRODUCTS</h2>
+    <div class = 'iphone'>
+      <h3 class = 'gadjet_name'>IPHONE</h3>   
+      <ul class = 'iphone_choice'>
+        <li class = 'iphone_choice_prod one_iph'><a class = "" href="#"><img src="images/products/14_face.png" alt="14_face"></a></li>
+        <li class = 'iphone_choice_prod two_iph distance_iph2'><a class="" href = '#'><img  src="images/products/13_face.png" alt="13_face"></a></li>
+        <li class = 'iphone_choice_prod three_iph '><a class="" href="#"><img src="images/products/12_face.png" alt="12_face"></a></li>
+      </ul>     
+    </div>
+    <div class = 'mac'>
+      <h3 class = 'gadjet_name'>MAC</h3>
+      <ul class = 'mac_choice'>
+        <li class = 'mac_choice_prod macbook mac_one'><a class="" href="#"><img src="images/products/macbook.png" alt="macbook"></a></li>
+        <li class = 'mac_choice_prod imac mac_two'><a class="" href="#"><img  src="images/products/Imac.png" alt="imac"></a></li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class = "support" id = "support">
+    <h2>SUPPORT</h2>
+    <ul class = 'support_title'>
+      <li class = 'support_title_forms'>
+        <h3 class = 'support_title_forms_name_guest' >Your Question</h3>
+        <form method="post">
+          <input type="email" name="email" placeholder="Your Email" class="request_input email_distance">
+          <input type="tel" name="telephone" placeholder="Your Phone number" class="request_input">
+          <input type="text" name="name" placeholder="Your name" class="request_input">
+          <textarea placeholder="Your question" class="request_input_letter" name="message" id="letter" ></textarea>
+          <input type="submit" value="Send" name="Send" class="button_apply">
+        </form>
+      </li>
+      <li class = 'support_title_forms_map'>
+        <h3 class = 'support_title_forms_name_map'>Map</h3>
+        <div class = 'support_title_forms_name_map_image' style="position:relative;overflow:hidden;">
+          <a href="https://yandex.ru/maps/213/moscow/search/re%3AStore/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">re:Store в Москве</a><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Москва</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUffHcS8C" width="603" height="450" style="position:relative;"></iframe>
+        </div>
+      </li>
+    </ul>
+
+    
+    
+      
+  </div>
+
+  <footer>
+    <p class = 'footer_caption'>
+      ©2022
+    </p>
+    <p class = 'footer_author'>
+      Dan7258
+    </p>
+  </footer>
 </body>
 </html>

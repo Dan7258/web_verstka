@@ -1,3 +1,15 @@
-.footer{
-
+footer
+{
+    display: flex;
+    padding-left:23px ;
+    font-family: 'Patron - PersonalUse';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top:18px ;
+}
+.footer_caption
+{
+    margin-right: 88.5%;
 }
