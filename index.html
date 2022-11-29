@@ -1,82 +1,142 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Hello World</title>
-</head>
-<body class="page" >
-  <header class="nav" >
-    <ul class='nav__list'>
-      <li class='nav__list_icon  '><img src="images/header/apple_icon.png" alt="apple_icon"></li>
-      <li class='nav__list_menu razmer1'><a href="#"> HOME</a></li>
-      <li class='nav__list_menu razmer3'><a href="#products">PRODUCTS </a></li>
-      <li class='nav__list_menu razmer2'><a href="#support">SUPPORT </a></li>
-      <li class='nav__list_menu'><a href="#">CONTACTS </a></li>
-      <li class='nav__list_tel'><img src="images/header/iphone_icon.png" alt="iphone_icon"></li>
-      <li class='nav__list_menu'>+78005553535</li>
-    </ul> 
-    <div class="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Apple Shop</title>
+  </head>
 
-    </div>
-  </header>
-
-  
-  <div class = "products" id = "products">
-    <h2>PRODUCTS</h2>
-    <div class = 'iphone'>
-      <h3 class = 'gadjet_name'>IPHONE</h3>   
-      <ul class = 'iphone_choice'>
-        <li class = 'iphone_choice_prod one_iph'><a class = "" href="#"><img src="images/products/14_face.png" alt="14_face"></a></li>
-        <li class = 'iphone_choice_prod two_iph distance_iph2'><a class="" href = '#'><img  src="images/products/13_face.png" alt="13_face"></a></li>
-        <li class = 'iphone_choice_prod three_iph '><a class="" href="#"><img src="images/products/12_face.png" alt="12_face"></a></li>
-      </ul>     
-    </div>
-    <div class = 'mac'>
-      <h3 class = 'gadjet_name'>MAC</h3>
-      <ul class = 'mac_choice'>
-        <li class = 'mac_choice_prod macbook mac_one'><a class="" href="#"><img src="images/products/macbook.png" alt="macbook"></a></li>
-        <li class = 'mac_choice_prod imac mac_two'><a class="" href="#"><img  src="images/products/Imac.png" alt="imac"></a></li>
-      </ul>
-    </div>
-    
-  </div>
-
-  <div class = "support" id = "support">
-    <h2>SUPPORT</h2>
-    <ul class = 'support_title'>
-      <li class = 'support_title_forms'>
-        <h3 class = 'support_title_forms_name_guest' >Your Question</h3>
-        <form method="post">
-          <input type="email" name="email" placeholder="Your Email" class="request_input email_distance">
-          <input type="tel" name="telephone" placeholder="Your Phone number" class="request_input">
-          <input type="text" name="name" placeholder="Your name" class="request_input">
-          <textarea placeholder="Your question" class="request_input_letter" name="message" id="letter" ></textarea>
-          <input type="submit" value="Send" name="Send" class="button_apply">
-        </form>
-      </li>
-      <li class = 'support_title_forms_map'>
-        <h3 class = 'support_title_forms_name_map'>Map</h3>
-        <div class = 'support_title_forms_name_map_image' style="position:relative;overflow:hidden;">
-          <a href="https://yandex.ru/maps/213/moscow/search/re%3AStore/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">re:Store в Москве</a><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Москва</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUffHcS8C" width="603" height="450" style="position:relative;"></iframe>
+  <body class="page">
+    <header class="header">
+      <div class="container">
+        <div class="burger"></div>
+        <nav class="navigation">
+          <div class="navigation__menu">
+            <img
+              class="logo"
+              src="./images/header/apple-icon.svg"
+              alt="Логотип магазина апл"
+            />
+            <ul class="lists header__nav-lists">
+              <li class="list header__nav-list">
+                <a class="link header__nav-link" href="#">Home</a>
+              </li>
+              <li class="list header__nav-list">
+                <a class="link header__nav-link" href="#">Products</a>
+              </li>
+              <li class="list header__nav-list">
+                <a class="link header__nav-link" href="#">Support</a>
+              </li>
+              <li class="list header__nav-list">
+                <a class="link header__nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navigation__info">
+            <img
+              class="number-icon"
+              src="./images/header/header-iphone-icon.svg"
+              alt="Телефон компании аппл"
+            />
+            <a class="link number navigation__number" href="tel:+78005553535">+78005553535</a>
+          </div>
+        </nav>
+        <div class="header__description">
+          <img class="main-logo" src="./images/header/apple-neon.svg" alt="Главная иконка аппл">
+          <h1 class="title header__title">Apple</h1>
         </div>
-      </li>
-    </ul>
-
-    
-    
-      
-  </div>
-
-  <footer>
-    <p class = 'footer_caption'>
-      ©2022
-    </p>
-    <p class = 'footer_author'>
-      Dan7258
-    </p>
-  </footer>
-</body>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+      <section class="products">
+        <h2 class="products__title">PRODUCTS</h2>
+        <div class="products__iphones">
+          <h3 class="products__iphones-subtitle">iphone</h3>
+          <div class="cards-iphones">
+            <img
+              src="./images/products/iphone-dark.png"
+              alt="Черный телефон апл"
+            />
+            <img
+              src="./images/products/iphone-blue.png"
+              alt="Синий телефон апл"
+            />
+            <img
+              src="./images/products/iphone-purple.jpeg"
+              alt="Фиолетовый телефон апл"
+            />
+          </div>
+        </div>
+        <div class="products__computers">
+          <div class="cards-mac">
+            <h3 class="title cards-mac__title">mac</h3>
+            <div class="cards-mac__wrap">
+              <img
+                src="./images/products/macbook.png"
+                alt="Макбук компании апл"
+              />
+              <img src="./images/products/imac.png" alt="АйМак компании апл" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="support">
+        <h2 class="support__title">SUPPORT</h2>
+        <div class="support__wrap">
+          <div class="support__form">
+            <span class="title support__subtitle">Your question</span>
+            <form class="form">
+              <label for="email"></label>
+              <input
+                class="support__input"
+                type="email"
+                id="email"
+                placeholder="Your Email"
+              />
+              <label for="number"></label>
+              <input
+                class="support__input"
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Your phone number"
+              />
+              <label for="name"></label>
+              <input type="text" class="support__input" name="name" id="name" placeholder="Your name" />
+              <label for="question"></label>
+              <textarea
+                name="question"
+                id="question"
+                cols="30"
+                rows="10"
+                class="support__text-area"
+                placeholder="Your question"
+              ></textarea>
+              <button class="support__button" type="submit">send</button>
+            </form>
+          </div>
+          <div class="map">
+            <span class="map__title">Map</span>
+            <iframe
+              class="map__area"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9290635.710903382!2d40.297852!3d55.35413500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1669663581464!5m2!1sru!2sru"
+              width="600"
+              height="450"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <p class="footer__year">2020</p>
+        <p class="footer__author">Dan7258</p>
+      </div>
+    </footer>
+  </body>
 </html>

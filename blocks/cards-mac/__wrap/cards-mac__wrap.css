@@ -1,0 +1,7 @@
+.cards-mac__wrap {
+    display: flex;
+    width: 770px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}

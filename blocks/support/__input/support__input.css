@@ -1,0 +1,7 @@
+.support__input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid var(--text-black);
+    outline: none;
+    margin-top: 20px;
+}

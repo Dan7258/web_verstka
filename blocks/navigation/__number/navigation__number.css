@@ -1,0 +1,7 @@
+.navigation__number {
+    margin: 6px 0 0 0;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: var(--text-white);
+}

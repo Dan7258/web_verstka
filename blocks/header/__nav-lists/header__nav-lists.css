@@ -1,0 +1,17 @@
+.header__nav-lists {
+  display: flex;
+  max-width: 400px;
+  min-width: 400px;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  margin: 10px 0 0 20px;
+}
+
+@media screen and (max-width: 660px) {
+  .header__nav-lists {
+    display: none;
+  }
+}

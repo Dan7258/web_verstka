@@ -1,0 +1,7 @@
+.header__title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 104px;
+  text-transform: capitalize;
+  color: var(--text-white);
+}

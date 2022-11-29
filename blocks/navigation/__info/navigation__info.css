@@ -1,0 +1,15 @@
+.navigation__info {
+  display: flex;
+  margin: 40px 20px 0 0;
+  max-width: 170px;
+  min-width: 170px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 660px) {
+  .navigation__info {
+    display: none;
+  }
+}

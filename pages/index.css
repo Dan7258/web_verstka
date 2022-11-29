@@ -1,92 +1,62 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/fonts.css';
-/* Blocks */ 
+
+/* Page */
+@import '../blocks/page/page.css';
+/* Container */
+@import '../blocks/container/container.css';
+/* Navigation */
+@import '../blocks/navigation/navigation.css';
+@import '../blocks/navigation/__info/navigation__info.css';
+@import '../blocks/navigation/__menu/navigation__menu.css';
+@import '../blocks/navigation/__number/navigation__number.css';
+/* Burger */
+@import '../blocks/burger/burger.css';
+/* Link */
+@import '../blocks/link/link.css';
+/* Logo */
+@import '../blocks/logo/logo.css';
+/* Products */
 @import '../blocks/products/products.css';
-/* Header */ 
+@import '../blocks/products/__title/products__title.css';
+@import '../blocks/products/__iphones-subtitle/products__iphones-subtitle.css';
+/* Number-coin */
+@import '../blocks/number-icon/number-icon.css';
+/* Cards-iphone */
+@import '../blocks/cards-iphones/cards-iphones.css';
+/* Title */
+@import '../blocks/title/title.css';
+/* Cards-mac */
+@import '../blocks/cards-mac/cards-mac.css';
+@import '../blocks/cards-mac/__wrap/cards-mac__wrap.css';
+@import '../blocks/cards-mac/__title/cards-mac__title.css';
+/* Support */
+@import '../blocks/support/support.css';
+@import '../blocks/support/__form/support__form.css';
+@import '../blocks/support/__input/support__input.css';
+@import '../blocks/support/__text-area/support__text-area.css';
+@import '../blocks/support/__title/support__title.css';
+@import '../blocks/support/__subtitle/support__subtitle.css';
+@import '../blocks/support/__button/support__button.css';
+@import '../blocks/support/__wrap/support__wrap.css';
+/* Form */
+@import '../blocks/form/form.css';
+/* Map */
+@import '../blocks/map/map.css';
+@import '../blocks/map/__title/map__title.css';
+@import '../blocks/map/__area/map__area.css';
+/* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__nav-link/header__nav-link.css';
+@import '../blocks/header/__nav-lists/header__nav-lists.css';
+@import '../blocks/header/__nav-list/header__nav-list.css';
+@import '../blocks/header/__description/header__description.css';
 /* Main */
-@import '../blocks/support/support.css';
+@import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
-
-
-html
-{
-    scroll-behavior: smooth;
-}
-body
-{
-    background-color: white;
-}
-
-h2
-{
-    margin: 0px 0px 0px 0px ;
-    text-align: center;
-    width: 290px;
-    height: 50px;
-    font-size: 40px;
-    line-height: 50px;
-    align-items: center;
-    font-family: 'Patron - Personal Use';
-    padding: 30px 0px 0px 0px;
-}
-
-h3
-{
-    margin: 0px 0px 0px 0px ;
-    width: 300px;
-    height: 40px;
-    font-size: 25px;
-    
-    text-align: center;
-    font-family: 'Patron - Personal Use';
-}
-
-
-@media screen and (max-width: 1280px) {
-.nav {
-    width: 1280px;
-    height: 760px;
-    background: no-repeat url(../images/header/background.jpg);
-    background-attachment: scroll;
-    background-size: 100%;
-}
-}
-@media screen and (max-width: 1024px) {
-    .nav {
-        width: 1280px;
-        height: 760px;
-        background: no-repeat url(../images/header/background.jpg);
-        background-attachment: scroll;
-        background-size: 100%;
-        margin-left: -96px;
-    }
-    }
-
-ul
-{
-    list-style-type: none;
-    margin: 0px 0px 0px 0px;
-}
-
-div
-{
-    margin: 0px 0px 0px 0px;
-}
-
-
-
-
-
-@font-face {
-    font-family: 'Patron - PersonalUse';  /* Название шрифта */ 
-    src: url('../vendor/fonts/Patron - PersonalUse.otf'); /* Путь к расположению шрифта */ 
-    font-style: normal;
-    text-align: center;
-    text-transform: capitalize;
-    color: black;
-    
-}
+@import '../blocks/footer/__container/footer__container.css';
+@import '../blocks/footer/__author/footer__author.css';
+@import '../blocks/footer/__year/footer__year.css';

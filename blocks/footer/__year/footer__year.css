@@ -1,0 +1,7 @@
+.footer__year {
+margin: 0 0 0 20px;
+}
+
+.footer__year::before {
+  content: "\00A9";
+}

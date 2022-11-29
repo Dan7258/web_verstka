@@ -1,0 +1,5 @@
+.navigation__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 0 0 0 ;
+}
