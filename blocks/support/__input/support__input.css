@@ -3,5 +3,46 @@
     border: none;
     border-bottom: 1px solid var(--text-black);
     outline: none;
-    margin-top: 20px;
+    margin-top: 50px;
+
+
 }
+
+@media (max-width : 1024px) {
+
+  .support__input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid var(--text-black);
+    outline: none;
+    margin-top: 50px;
+    width: 250px;
+    margin-right: 30px;
+}
+
+}
+
+@media (max-width : 768px) {
+
+  .support__input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid var(--text-black);
+    outline: none;
+    margin-top: 49px;
+    width: 280px;
+    margin-right: 30px;
+}
+
+@media (max-width : 480px) {
+
+  .support__input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid var(--text-black);
+    outline: none;
+    margin-top: 48px;
+    width: 280px;
+    margin-right: 30px;
+}
+}}

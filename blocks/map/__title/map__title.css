@@ -1,3 +1,24 @@
 .map__title {
-    display: block
+    display: block;
+    font-size: 25px;
+    line-height: 41px;
+    margin-left:16px ;
 }
+@media (max-width : 1024px) {
+
+  .map__title {
+    display: block;
+    font-size: 25px;
+    line-height: 41px;
+    margin-left:276px ;
+    margin-top: 28px;
+}
+}
+
+ @media (max-width : 480px) {
+
+  .map__title {
+    font-weight: 800;
+    letter-spacing: 3px;
+} }
+

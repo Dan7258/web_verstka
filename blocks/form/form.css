@@ -1,3 +1,75 @@
+
 .form {
-    width: 290px;
+    width: 280px;
+    margin-left: 5px;
+
+}
+ul
+{
+  list-style-type: none;
+}
+
+@media (max-width : 1024px) {
+
+  .form {
+    margin-top: -15px;
+    width: 280px;
+    margin-left: -160px;
+
+}
+  .razmer {
+
+    display: flex;
+  }
+
+
+
+}
+
+@media (max-width : 768px) {
+
+  .razmer {
+
+    display:inline;
+  }
+
+  .form {
+    margin-top: -15px;
+    width: 280px;
+    margin-left: -120px;
+
+}
+
+}
+
+
+@media (max-width : 480px) {
+
+  .razmer {
+
+    display:inline;
+  }
+
+  .form {
+    margin-top: -15px;
+    width: 280px;
+    margin-left: -262px;
+
+}
+
+}
+@media (max-width : 320px) {
+
+  .razmer {
+
+    display:inline;
+  }
+
+  .form {
+    margin-top: -15px;
+    width: 280px;
+    margin-left: -342px;
+
+}
+
 }

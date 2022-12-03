@@ -3,3 +3,87 @@
     justify-content: space-between;
     margin-top: 30px;
 }
+
+.blue_phone
+{
+  margin-left: -10px;
+}
+@media (min-width : 1024px) {
+
+  .cards-iphones {
+    display: flex;
+    margin: 30px 20px 0px 20px;
+}
+}
+@media (max-width : 768px) {
+
+  .blue_phone
+  {
+    margin-left: -10px;
+
+  }
+  .cards-iphones {
+    display: flex;
+    margin: 30px 20px 0px 20px;
+}
+.blue_phone
+{
+  margin-left: 0px;
+}
+}
+
+@media (max-width : 480px) {
+
+  .blue_phone
+  {
+    margin-left: 0px;
+
+  }
+  .cards-iphones {
+    display: inline;
+    margin: 0px 0px 0px 117px;
+}
+.blue_phone
+{
+  margin-left:122px ;
+  margin-top:6px
+}
+.pink_phone
+{
+  margin-left:122px ;
+  margin-top:6px
+
+}
+.black_phone
+{
+  margin-top:29px ;
+}
+}
+
+@media (max-width : 320px) {
+
+  .blue_phone
+  {
+    margin-left: 0px;
+
+  }
+  .cards-iphones {
+    display: inline;
+    margin: 0px 0px 0px 37px;
+}
+.blue_phone
+{
+  margin-left:42px ;
+  margin-top:6px
+}
+.pink_phone
+{
+  margin-left:42px ;
+  margin-top:6px
+
+}
+.black_phone
+{
+  margin-top:29px ;
+}
+}

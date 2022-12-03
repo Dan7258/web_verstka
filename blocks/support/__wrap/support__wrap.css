@@ -1,4 +1,21 @@
-.support__wrap {
+
+@media (min-width : 1279px) {
+
+  .support__wrap {
     display: flex;
-    justify-content: space-around;
+    margin-top: 19px;
+    margin-left: 115px;
 }
+
+}
+@media (max-width : 1024px) {
+
+  .support__wrap {
+    margin-top: 19px;
+    margin-left: 362px;
+
+  }
+
+}
+
+

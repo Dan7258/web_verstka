@@ -1,7 +1,103 @@
 .cards-mac__wrap {
     display: flex;
-    width: 770px;
+    width: 792px;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 29px;
 }
+
+.cards-mac__wrap__macbook
+{
+  margin-top: 62px ;
+  width: 270px;
+  height: 170px;
+  margin-right: 250px;
+}
+
+
+@media (max-width : 1024px) {
+
+  .cards-mac__wrap {
+    display: flex;
+    width: 692px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+.cards-mac__wrap__macbook
+{
+  margin-top: 62px ;
+  width: 270px;
+  height: 170px;
+  margin-right: 140px;
+}
+}
+
+@media (max-width : 768px) {
+
+  .cards-mac__wrap {
+    display: flex;
+    width: 682px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+.cards-mac__wrap__macbook
+{
+  margin-top: 62px ;
+  width: 270px;
+  height: 170px;
+  margin-right: 140px;
+}
+}
+
+@media (max-width : 480px) {
+
+  .cards-mac__wrap {
+    display: inline;
+    width: 682px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.cards-mac__wrap__macbook
+{
+  margin-top: 30px ;
+  margin-bottom: 8px;
+  width: 270px;
+  height: 170px;
+  margin-right: 140px;
+  margin-left: 104px;
+}
+.cards-mac__wrap__imac
+{
+
+  margin-left: 102px;
+}
+
+@media (max-width : 320px) {
+
+  .cards-mac__wrap {
+    display: inline;
+    width: 682px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.cards-mac__wrap__macbook
+{
+  margin-top: 30px ;
+  margin-bottom: 8px;
+  width: 270px;
+  height: 170px;
+  margin-right: 140px;
+  margin-left: 24px;
+}
+.cards-mac__wrap__imac
+{
+
+  margin-left: 22px;
+}
+}}
+
+

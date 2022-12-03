@@ -4,3 +4,36 @@
     height: 50px;
     letter-spacing: -2px;
 }
+
+@media (max-width : 1024px) {
+
+  .products__title {
+    margin: 24px 0 0 28px;
+    width: 290px;
+    height: 50px;
+    letter-spacing: -2px;
+}
+
+}
+@media (max-width : 768px) {
+
+  .products__title {
+    margin: 23px 0 0 28px;
+    width: 290px;
+    height: 50px;
+    letter-spacing: -2px;
+}
+
+}
+@media (max-width : 320px) {
+
+  .products__title {
+    margin: 23px 0 0 24px;
+    width: 290px;
+    height: 50px;
+    letter-spacing: -2px;
+}
+
+}
+
+

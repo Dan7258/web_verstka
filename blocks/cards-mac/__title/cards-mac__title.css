@@ -4,3 +4,12 @@
   line-height: 41px;
   text-transform: uppercase;
 }
+@media (max-width : 480px) {
+
+  .cards-mac__title{
+    margin: 7px 0 0 0;
+    font-size: 25px;
+    line-height: 41px;
+    text-transform: uppercase;
+  }
+}

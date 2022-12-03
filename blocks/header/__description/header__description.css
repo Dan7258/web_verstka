@@ -2,3 +2,12 @@
   margin: 50px 0 0 0;
  text-align:center;
 }
+
+@media (max-width : 480px) {
+
+  .header__description{
+    margin: 55px 0 0 0;
+   text-align:center;
+  }
+
+}

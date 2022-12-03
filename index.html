@@ -40,97 +40,126 @@
               src="./images/header/header-iphone-icon.svg"
               alt="Телефон компании аппл"
             />
-            <a class="link number navigation__number" href="tel:+78005553535">+78005553535</a>
+            <a class="link number navigation__number" href="tel:+78005553535"
+              >+78005553535</a
+            >
           </div>
         </nav>
         <div class="header__description">
-          <img class="main-logo" src="./images/header/apple-neon.svg" alt="Главная иконка аппл">
+          <img
+            class="main-logo"
+            src="./images/header/apple-neon.svg"
+            alt="Главная иконка аппл"
+          />
           <h1 class="title header__title">Apple</h1>
         </div>
       </div>
     </header>
     <main class="main">
       <div class="container">
-      <section class="products">
-        <h2 class="products__title">PRODUCTS</h2>
-        <div class="products__iphones">
-          <h3 class="products__iphones-subtitle">iphone</h3>
-          <div class="cards-iphones">
-            <img
-              src="./images/products/iphone-dark.png"
-              alt="Черный телефон апл"
-            />
-            <img
-              src="./images/products/iphone-blue.png"
-              alt="Синий телефон апл"
-            />
-            <img
-              src="./images/products/iphone-purple.jpeg"
-              alt="Фиолетовый телефон апл"
-            />
-          </div>
-        </div>
-        <div class="products__computers">
-          <div class="cards-mac">
-            <h3 class="title cards-mac__title">mac</h3>
-            <div class="cards-mac__wrap">
+        <section class="products">
+          <h2 class="products__title">PRODUCTS</h2>
+          <div class="products__iphones">
+            <h3 class="products__iphones-subtitle">iphone</h3>
+            <div class="cards-iphones">
               <img
-                src="./images/products/macbook.png"
-                alt="Макбук компании апл"
+              class="black_phone"
+                src="./images/products/iphone-dark.png"
+                alt="Черный телефон апл"
               />
-              <img src="./images/products/imac.png" alt="АйМак компании апл" />
+
+              <img
+                class="blue_phone"
+                src="./images/products/iphone-blue.png"
+                alt="Синий телефон апл"
+              />
+
+              <img
+              class="pink_phone"
+                src="./images/products/iphone-purple.jpeg"
+                alt="Фиолетовый телефон апл"
+              />
             </div>
           </div>
-        </div>
-      </section>
-      <section class="support">
-        <h2 class="support__title">SUPPORT</h2>
-        <div class="support__wrap">
-          <div class="support__form">
-            <span class="title support__subtitle">Your question</span>
-            <form class="form">
-              <label for="email"></label>
-              <input
-                class="support__input"
-                type="email"
-                id="email"
-                placeholder="Your Email"
-              />
-              <label for="number"></label>
-              <input
-                class="support__input"
-                type="number"
-                name="number"
-                id="number"
-                placeholder="Your phone number"
-              />
-              <label for="name"></label>
-              <input type="text" class="support__input" name="name" id="name" placeholder="Your name" />
-              <label for="question"></label>
-              <textarea
-                name="question"
-                id="question"
-                cols="30"
-                rows="10"
-                class="support__text-area"
-                placeholder="Your question"
-              ></textarea>
-              <button class="support__button" type="submit">send</button>
-            </form>
+          <div class="products__computers">
+            <div class="cards-mac">
+              <h3 class="title cards-mac__title">mac</h3>
+              <div class="cards-mac__wrap">
+                <img
+                  class="cards-mac__wrap__macbook"
+                  src="./images/products/macbook.png"
+                  alt="Макбук компании апл"
+                />
+                <img
+                class="cards-mac__wrap__imac"
+                  src="./images/products/imac.png"
+                  alt="АйМак компании апл"
+                />
+              </div>
+            </div>
           </div>
-          <div class="map">
-            <span class="map__title">Map</span>
-            <iframe
-              class="map__area"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9290635.710903382!2d40.297852!3d55.35413500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1669663581464!5m2!1sru!2sru"
-              width="600"
-              height="450"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+        </section>
+        <section class="support">
+          <h2 class="support__title">SUPPORT</h2>
+          <div class="support__wrap">
+            <div class="support__form">
+              <span class="title support__subtitle">Your question</span>
+
+              <form class="form">
+                <ul class="razmer">
+                  <li>
+                    <label for="email"></label>
+                    <input
+                      class="support__input"
+                      type="email"
+                      id="email"
+                      placeholder="Your Email"
+                    />
+                    <label for="number"></label>
+                    <input
+                      class="support__input"
+                      type="number"
+                      name="number"
+                      id="number"
+                      placeholder="Your phone number"
+                    />
+                    <label for="name"></label>
+                    <input
+                      type="text"
+                      class="support__input"
+                      name="name"
+                      id="name"
+                      placeholder="Your name"
+                    />
+                  </li>
+                  <li>
+                    <label for="question"></label>
+                    <textarea
+                      name="question"
+                      id="question"
+                      cols="30"
+                      rows="10"
+                      class="support__text-area"
+                      placeholder="Your question"
+                    ></textarea>
+                  </li>
+                </ul>
+                <button class="support__button" type="submit">send</button>
+              </form>
+            </div>
+            <div class="map">
+              <span class="map__title">Map</span>
+              <iframe
+                class="map__area"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9290635.710903382!2d40.297852!3d55.35413500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1669663581464!5m2!1sru!2sru"
+                width="610"
+                height="460"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <div class="container footer__container">

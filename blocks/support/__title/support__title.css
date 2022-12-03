@@ -1,5 +1,46 @@
 .support__title {
-  margin: 30px 6px 0 0;
+  margin: 22px 0px 0px 6px;
   font-size: 40px;
   line-height: 65px;
+}
+
+@media (max-width : 1024px) {
+
+  .support__title {
+    margin: 22px 0px 0px 25px;
+    font-size: 40px;
+    line-height: 65px;
+  }
+
+}
+
+
+@media (max-width : 768px) {
+
+  .support__title {
+    margin: 19px 0px 0px 25px;
+    font-size: 40px;
+    line-height: 65px;
+  }
+
+}
+
+@media (max-width : 480px) {
+
+  .support__title {
+    margin: 0px 0px 0px 25px;
+    font-size: 40px;
+    line-height: 65px;
+  }
+
+}
+
+@media (max-width : 320px) {
+
+  .support__title {
+    margin: 28px 0px 0px 40px;
+    font-size: 40px;
+    line-height: 65px;
+  }
+
 }

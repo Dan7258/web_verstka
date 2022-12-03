@@ -1,4 +1,36 @@
 .support__subtitle {
     font-size: 25px;
     line-height: 41px;
+    padding-left: 20px ;
 }
+
+@media (max-width : 768px) {
+
+  .support__subtitle {
+    font-size: 25px;
+    line-height: 41px;
+    margin-left: -129px ;
+}
+
+}
+
+@media (max-width : 480px) {
+
+  .support__subtitle {
+    font-size: 25px;
+    line-height: 41px;
+    margin-left: -272px ;
+}
+
+}
+
+@media (max-width : 320px) {
+
+  .support__subtitle {
+    font-size: 25px;
+    line-height: 41px;
+    margin-left: -352px ;
+}
+
+}
+

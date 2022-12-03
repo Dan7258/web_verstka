@@ -1,6 +1,31 @@
 .support__text-area {
     border: 2px solid #000000;
     border-radius: 15px;
-    width: 280px;
+    width: 272px;
     margin-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    height: 180px;
+
+}
+
+@media (max-width : 1024px) {
+
+
+
+}
+
+@media (max-width : 768px) {
+
+  .support__text-area {
+    border: 2px solid #000000;
+    border-radius: 15px;
+    width: 272px;
+    margin-top: 28px;
+    font-size: 12px;
+    line-height: 20px;
+    height: 180px;
+
+}
+
 }
